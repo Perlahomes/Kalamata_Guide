@@ -7,3 +7,12 @@ images.forEach(image => {
     image.classList.toggle('enlarged');
   });
 });
+
+
+    function googleTranslateElementInit() {
+        new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'en,el,es,fr,de,zh-CN,ja,ru', // Add more languages as needed
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+    }

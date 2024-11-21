@@ -86,4 +86,6 @@ cursor: pointer; /* Indicate that the image is clickable */
 transform: scale(1.5); /* Enlarge image to 1.5x its size */
 z-index: 1000;
 position: relative;
+
 }
+
